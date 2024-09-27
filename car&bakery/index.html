@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car$bakery</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="passo0.jpg" alt=>
+            <p>
+                Em um belo dia você está em sua casa tranquilo(a), quando bate aquela vontade de tomar um cafe da tarde,
+                e como
+                você não esta afim de fazer o cafe você decide ir dar uma volta de carro até uma padaria, quando está
+                entrando na garagem você percebe que seu carro não está na garagem, em um grande desespero você percebe
+                as marcas de rodas deixadas pelo seu carro, uma para a cidade grande, e a outra indo para o parque
+                parque na floresta, você decide ir atrás de quem fez isso, mas por onde você começa?
+            </p>
+            <button class="btn-proximo" data-proximo="1">
+                cidade grande
+            </button>
+            <button class="btn-proximo" data-proximo="2">
+                parque
+            </button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>
+                Vamos procurar na cidade, é o lugar mais obvio, lá deve estar a primeira pista
+            </p>
+            <button class="btn-proximo" data-proximo="3">
+                procurar nos estacionamentos publícos
+            </button>
+            <button class="btn-proximo" data-proximo="4">
+                desistir de procurar o carro e ir direto para a padaria
+            </button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>
+                a caminho do parque você começa a ouvir duas pessoas conversando, ao chegar mais perto escondido para
+                ouvir a conversa melhor, você percebe que os dois estão falando do seu carro e já estão de partida com
+                seu carro! o que você faz?
+            </p>
+            <button class="btn-proximo" data-proximo="5">
+                seguir o carro até ele fazer mais uma parada
+            </button>
+            <button class="btn-proximo" data-proximo="6">
+                tentar ligar para a policia
+            </button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>
+                logo ao entrar no primeiro estacionamento você vê seu carro subindo para a parte mais elevada da garagem
+            </p>
+            <button class="btn-proximo" data-proximo="7">
+                seguir o carro
+            </button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>
+                Você decidiu que não adiantava mais ir atrás do carro então você decide ir até a padaria a pé só que no
+                meio do caminho você é atropelado por um carro e acorda no hospital, a infermeira diz que o carro que te
+                atropelou era o seu, e agora você esta internado, sem carro e sem o seu café
+            </p>
+
+            <button class="btn-proximo" data-proximo="0">
+                você não conseguiu dessa vez, tente novamente!
+            </button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>
+                ao seguir o carro você chega a um estacionamento só que cheio de carros aonde você fica confuso para
+                aonde o seu foi mas parece que esse estacionamento tem 2 andares, para aonde ir agora?
+            </p>
+            <button class="btn-proximo" data-proximo="9">
+                procurar no primeiro andar
+            </button>
+            <button class="btn-proximo" data-proximo="10">
+                procurar no segundo andar
+            </button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>
+                você tentou ligar para a policia mais não funcionou
+                <button class="btn-proximo" data-proximo="5">
+                    seguir o carro então
+                </button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>
+                logo ao entrar na garagem você ve seu carro saindo pelo outro lado e fugindo
+                <button class="btn-proximo" data-proximo="5">
+                    seguir o carro
+                </button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>
+                parece que no primeiro andar não tem nenhum vestigio do seu carro
+            </p>
+            <button class="btn-proximo" data-proximo="5">
+                melhor voltarmos para a entrada da garagem
+            </button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>
+                no segundo andar durante sua procura você acaba vendo um carro suspeitamente coberto no final da garagem
+            </p>
+            <button class="btn-proximo" data-proximo="11">
+                investigar o carro coberto
+            </button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <p>
+                ao remover o lençol do carro, você percebe que é o seu carro roubado e que um dos ladrões estava
+                dormindo no banco de tras, você pode apenas expulsa-lo de seu carro ou levar ele para a delegacia, o que
+                você faz?
+                <button class="btn-proximo" data-proximo="13">
+                    expulsa-lo?
+                </button>
+                <button class="btn-proximo" data-proximo="14">
+                    entregar ele para a delegacia?
+                </button>
+        </div>
+
+        <div class="passo" id="passo-13">
+            <p>
+                você apenas o expulsa, agora você está feliz com seu carro recuperado e indo finalmente tomar o seu
+                querido café!
+            </p>
+            <button class="btn-proximo" data-proximo="0">
+                parabéns! você concluiu o jogo! vamos voltar do começo agora!
+            </button>
+        </div>
+
+        <div class="passo" id="passo-14">
+            <p>
+                você vai em direção a delegacia e quando você chega la, os policiais prendem o bandido e você junto
+                pois você era provurado por furto de veiculo
+            </p>
+                <button class="btn-proximo" data-proximo="0">
+                    você agora está preso junto com o cara que roubou o seu carro (que você também roubou) começe de
+                    novo!
+                </button>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
